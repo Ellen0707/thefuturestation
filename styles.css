@@ -486,189 +486,29 @@ footer p {
 }
 
 @media (max-width: 1080px) {
-  .container {
-    width: 90%;
-  }
+    .card-grid, .stats-grid {
+        grid-template-columns: 1fr;
+    }
 
-  .banner-content {
-    flex-direction: column;
-  }
+    .event-card {
+        flex-direction: column;
+    }
 
-  .banner-left,
-  .banner-right {
-    width: 100%;
-    text-align: center;
-  }
-
-  .banner-left h1 {
-    font-size: 2.8rem;
-  }
-
-  .banner-left p,
-  .banner-right p {
-    font-size: 1rem;
-  }
-
-  .banner-left button {
-    width: auto;
-    padding: 0.8rem 1.5rem;
-  }
-
-  .events-container,
-  .card-grid,
-  .reviews-grid {
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-
-  .event-card,
-  .card,
-  .review-card {
-    flex: 1 1 300px;
-    max-width: 350px;
-  }
-
-  .events h2,
-  .what-to-expect h2,
-  .future-numbers h2,
-  .reviews h2,
-  .faq h2 {
-    font-size: 1.8rem;
-  }
-
-  h1 {
-    font-size: 56px;
-  }
-
-  h2 {
-    font-size: 40px;
-  }
-
-  h3 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 20px;
-  }
+    .event-card img {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 360px) {
-  .container {
-    width: 100%;
-    padding: 0 10px;
-  }
+     .card-grid, .stats-grid {
+        grid-template-columns: 1fr;
+    }
 
-  header .container {
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
-  }
+    .event-card {
+        flex-direction: column;
+    }
 
-  .logo img {
-    width: 80px;
-  }
-
-  nav ul {
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .banner-left h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.3rem;
-  }
-
-  .banner-subtitle {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-  }
-
-  .banner-left p,
-  .banner-right p {
-    font-size: 0.9rem;
-  }
-
-  .banner-left button {
-    padding: 0.6rem 1rem;
-    font-size: 0.9rem;
-    width: 100%;
-    height: auto;
-  }
-
-  .events-container,
-  .card-grid,
-  .reviews-grid {
-    gap: 1rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .event-card,
-  .card,
-  .review-card {
-    flex: 0 1 100%;
-    max-width: none;
-    margin-bottom: 1rem;
-  }
-
-  .event-card img {
-    height: 120px;
-  }
-
-  .events h2,
-  .what-to-expect h2,
-  .future-numbers h2,
-  .reviews h2,
-  .faq h2 {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  footer {
-    padding: 15px 5%;
-  }
-
-  .footer-content {
-    gap: 15px;
-  }
-
-  .right img {
-    width: 24px;
-    height: 24px;
-  }
-
-  .number {
-    font-size: 24px;
-  }
-
-  .description {
-    font-size: 12px;
-  }
-
-  .rating {
-    font-size: 16px;
-  }
-
-  .reviews button {
-    padding: 10px 20px;
-    font-size: 0.8rem;
-  }
+    .event-card img {
+        margin-bottom: 1rem;
+    }
 }
