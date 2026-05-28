@@ -1,0 +1,429 @@
+.istok-web-bold {
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+h1 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 90px
+}
+
+h2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 50px
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #647FDA;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 5% 5%;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.exhibition-info {
+  overflow: hidden;
+  }
+
+.image-container {
+  float: left;
+  width: 50%;
+  margin-right: 30px; 
+  margin-bottom: 20px;
+  }
+
+.exhibition-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+  line-height: 1.6;
+}
+
+.text-container h3 {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.text-container strong {
+  color: #000000;
+}
+
+.dates {
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: medium;
+}
+
+.dates h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #000000;
+  font-weight: 600;
+  }
+
+.about h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #000000;
+    }
+
+.about p {
+    line-height: 1.6;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.forwhom {
+background-color: #D2F3FF;
+padding: 30px 0;
+}
+
+.image-row, .text-row {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.for-whom-image {
+  width: calc(33.33% - 30px);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.text-row {
+  margin-top: 30px; 
+}
+
+.text-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 30px);
+}
+
+.forwhom h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.text-item p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.forwhom h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #000000;
+    }
+
+.forwhom p {
+    line-height: 1.6;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.artists-slider {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+gap: 10px;
+}
+
+.artist-cards-wrapper {
+display: flex;
+gap: 10px;
+flex: 1;
+}
+
+.artist-card {
+flex: 1;
+margin-bottom: 10px;
+text-align: center;
+box-sizing: border-box;
+}
+
+.artist-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.artist-card h3 {
+  color: #000000;
+  font-size: 18px;
+  margin: 0;
+}
+
+.slider-btn {
+    display: flex;
+    justify-content: center;
+    gap: 0,5rem;
+    margin-top: 1rem;
+}
+
+.slider-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #007acc;
+}
+
+.our-artists h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #000000;
+    }
+
+.organizers-comments {
+  padding: 30px 0;
+  background-color: #D2F3FF;
+}
+
+.organizers-comments h2 {
+  text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #000000;
+    }
+
+.organizers-comments p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    color: #000000;
+    }
+
+.comment-card {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.avatar-container {
+  position: absolute;
+  top: 15px; 
+  left: 15px; 
+}
+
+.comment-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment-text {
+    padding-left: 100px;
+    flex: 1;
+}
+
+.comment-text h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.comment-text p {
+  line-height: 1.6;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.buy-ticket-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #2F2B69;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.buy-ticket-btn:hover {
+  background-color: #0056b3;
+}
+
+.organizers-comments h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+footer {
+    padding: 20px 5%;
+    text-align: left;
+    background-color: #647FDA;
+    color: white;
+    margin-top: 0px;
+}
+
+footer p {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .target-audience {
+        flex-direction: column;
+    }
+
+    .audience-item {
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+
+    .artists-slider {
+        padding: 10px;
+    }
+
+    .artist-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prev, .next {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
